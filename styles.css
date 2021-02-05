@@ -37,7 +37,7 @@ body{
   font-size: 100px;
   color: #fcf9f3;
   width: 80%;
-  
+
 }
 
 h2 {
@@ -83,4 +83,12 @@ h2 {
   .home-img-container {
     margin-bottom: 100px;
   }
+  .indoor-img{
+    width: 100%;
+  }
+  .container-fluid{
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
 }
