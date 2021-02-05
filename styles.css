@@ -123,16 +123,5 @@ h2 {
   .home-img-container {
     margin-bottom: 100px;
   }
-  .indoor-img{
-    width: 50px;
-  }
-  .container-fluid{
-    padding-left: 200px !important;
-    padding-right: 200px !important;
-  }
-
-  .col-lg-3 {
-    width: 300px;
-  }
 
 }
