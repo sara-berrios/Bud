@@ -4,12 +4,15 @@
   box-sizing: border-box;
   font-family: "Playfair Display", sans-serif;
 }
+
 body{
   background-color: #fcf9f3;
 }
+
 .main-img {
-  height: 800px;
+  /* height: 800px; */
   width: 100%;
+  display: block;
 }
 
 .footer {
@@ -28,11 +31,13 @@ body{
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 100px;
   color: #fcf9f3;
+  width: 80%;
+  
 }
 
 h2 {
@@ -51,4 +56,31 @@ h2 {
 .nav-link{
   color: #fcf9f3 !important;
   font-size: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+  .main-img {
+    height: 300px;
+    margin-bottom: 50px !important;
+  }
+
+  .centered {
+    font-size: 30px;
+    font-weight: bold;
+    /* text-align:; */
+    width: 300px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  }
+
+  .home-icon {
+    margin-bottom: 60px;
+  }
+
+  .home-img-container {
+    margin-bottom: 100px;
+  }
 }
