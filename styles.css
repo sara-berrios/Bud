@@ -87,6 +87,11 @@ h2 {
   font-size: 20px;
 }
 
+.active {
+  background-color: #fcf9f3 !important ;
+  color: #4D774E !important;
+}
+
 .row {
   margin-bottom: 1em;
 }
